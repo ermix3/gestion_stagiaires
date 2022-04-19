@@ -78,7 +78,7 @@ class Stagiaire:
         self.__note3 = note3
 
     # methode qui calcul la moyenne d'un stagiaire
-    def calculMoyenne(self):
+    def calcul_moyenne(self):
         return (self.__note1 + self.__note2 + self.__note3) / 3
 
     # methode qui rechercher un stagiaire par son nom
@@ -103,7 +103,7 @@ class Stagiaire:
         meilleur_stagiaire = None
         for stagiaire in cls.liste_stagiaires:
             if stagiaire.calculMoyenne() > moyenne:
-                moyenne = stagiaire.calculMoyenne()
+                moyenne = stagiaire.calcul_moyenne()
                 meilleur_stagiaire = stagiaire
         return meilleur_stagiaire
 
