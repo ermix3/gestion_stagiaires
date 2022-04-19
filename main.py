@@ -1,4 +1,4 @@
-from gestionStagiaire.Stagiaire import Stagiaire
+from gestion_stagiaires.Stagiaire import Stagiaire
 
 
 while True:
