@@ -16,5 +16,5 @@
       - supprimer_stagiaire()
       - afficher_stagiaire()
       - meilleure_moyenne()
-## 2- main
-- ici on lance le programme.
+## 2- Main
+  - ici on lance le programme.
